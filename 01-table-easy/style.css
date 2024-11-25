@@ -1,0 +1,24 @@
+th {
+    padding: 6px 12px;
+    border: 1px solid #dfdfe2;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #dfdfe2;
+    letter-spacing: 0.2px;
+}
+
+td {
+    padding: 6px 12px;
+}
+
+tfoot {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #dfdfe2;
+    letter-spacing: 0.2px;
+    font-size: 1rem;
+    color: black;
+}
