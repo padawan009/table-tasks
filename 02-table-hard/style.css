@@ -1,14 +1,25 @@
+
 table {
   background-color: #f6f6f6;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 td, th {
   border: 1px solid #999;
+  text-align: left;
+}
+
+td {
+  color: black;
+  padding: 20px;
 }
 
 th {
-  background: rgb(42, 165, 136);
+  background-color: rgb(42, 165, 136);
   color: white;
+  padding: 6px 12px;
+  white-space: nowrap;
 }
 
 .primary {
@@ -18,8 +29,4 @@ th {
 tfoot > tr  {
   background: black;
   color: white;
-}
-
-tbody > tr:hover {
-  background-color: #b98ee6;
 }
