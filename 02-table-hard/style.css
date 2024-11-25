@@ -3,6 +3,7 @@ table {
   background-color: #f6f6f6;
   border-collapse: collapse;
   width: 100%;
+  vertical-align: middle;
 }
 
 td, th {
@@ -26,7 +27,3 @@ th {
   background-color: #000000;
 }
 
-tfoot > tr  {
-  background: black;
-  color: white;
-}
